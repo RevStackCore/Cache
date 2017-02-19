@@ -62,5 +62,25 @@ namespace RevStackCore.Cache
 		{
 			return Task.Run(() => Set(entity, key,timeSpan));
 		}
+
+		public void SetCollection(IEnumerable<TEntity> collection, string key)
+		{
+			_repository.SetCollection(collection, key);
+		}
+
+		public void SetCollection(IEnumerable<TEntity> collection, string key, TimeSpan timeSpan)
+		{
+			_repository.SetCollection(collection, key, timeSpan);
+		}
+
+		public Task SetCollectionAsync(IEnumerable<TEntity> collection, string key)
+		{
+			return Task.Run(() => SetCollection(collection, key));
+		}
+
+		public Task SetCollectionAsync(IEnumerable<TEntity> collection, string key, TimeSpan timeSpan)
+		{
+			return Task.Run(() => SetCollection(collection, key, timeSpan));
+		}
 	}
 }

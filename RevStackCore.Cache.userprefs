@@ -1,12 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="package.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RevStackCore.Cache/RevStackCore.Cache.csproj">
     <Files>
-      <File FileName="RevStackCore.Cache/Repository/ICacheRepository.cs" Line="4" Column="29" />
-      <File FileName="RevStackCore.Cache/Service/ICacheService.cs" Line="15" Column="61" />
-      <File FileName="RevStackCore.Cache/Service/CacheService.cs" Line="59" Column="4" />
-      <File FileName="RevStackCore.Cache/Entity/EntityCollection.cs" Line="3" Column="28" />
-      <File FileName="package.json" Line="12" Column="5" />
-      <File FileName="README.md" Line="3" Column="1" />
+      <File FileName="RevStackCore.Cache/Repository/ICacheRepository.cs" Line="13" Column="86" />
+      <File FileName="RevStackCore.Cache/Service/CacheService.cs" Line="67" Column="4" />
+      <File FileName="RevStackCore.Cache/Service/ICacheService.cs" Line="20" Column="64" />
+      <File FileName="RevStackCore.Cache/RevStackCore.Cache.csproj" Line="15" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

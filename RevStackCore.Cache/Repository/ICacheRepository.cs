@@ -9,6 +9,8 @@ namespace RevStackCore.Cache
 		TEntity Get(string key);
 		void Set(TEntity entity, string key);
 		void Set(TEntity entity, string key, TimeSpan timeSpan);
+		void SetCollection(IEnumerable<TEntity> collection, string key);
+		void SetCollection(IEnumerable<TEntity> collection, string key, TimeSpan timeSpan);
 		void Delete(string key);
 	}
 }

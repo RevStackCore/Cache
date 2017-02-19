@@ -11,11 +11,15 @@ namespace RevStackCore.Cache
 		TEntity Get(string key);
 		void Set(TEntity entity, string key);
 		void Set(TEntity entity, string key, TimeSpan timeSpan);
+		void SetCollection(IEnumerable<TEntity> collection, string key);
+		void SetCollection(IEnumerable<TEntity> collection, string key, TimeSpan timeSpan);
 		void Delete(string key);
 		Task<IEnumerable<TEntity>> GetCollectionAsync(string key);
 		Task<TEntity> GetAsync(string key);
 		Task SetAsync(TEntity entity, string key);
 		Task SetAsync(TEntity entity, string key, TimeSpan timeSpan);
+		Task SetCollectionAsync(IEnumerable<TEntity> collection, string key);
+		Task SetCollectionAsync(IEnumerable<TEntity> collection, string key, TimeSpan timeSpan);
 		Task DeleteAsync(string key);
 	}
 }
