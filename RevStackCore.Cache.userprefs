@@ -1,16 +1,3 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="RevStackCore.Cache/RevStackCore.Cache.csproj">
-    <Files>
-      <File FileName="RevStackCore.Cache/Repository/ICacheRepository.cs" Line="13" Column="86" />
-      <File FileName="RevStackCore.Cache/Service/CacheService.cs" Line="67" Column="4" />
-      <File FileName="RevStackCore.Cache/Service/ICacheService.cs" Line="20" Column="64" />
-      <File FileName="RevStackCore.Cache/RevStackCore.Cache.csproj" Line="15" Column="14" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
